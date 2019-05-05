@@ -1,9 +1,9 @@
 import React,{Component} from 'react';
 import PropTypes from 'prop-types';
 import { CSSTransition  } from 'react-transition-group';
-import Question from '../components/Question';
-import QuestionCount from '../components/QuestionCount';
-import AnswerOption from '../components/AnswerOption';
+import Question from './Question.jsx';
+import QuestionCount from './QuestionCount.jsx';
+import AnswerOption from './AnswerOption.jsx';
 
 class Quiz extends Component{
   constructor(props){

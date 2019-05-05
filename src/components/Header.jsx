@@ -1,13 +1,13 @@
-import React, { Component } from "react";
-
+import React, { Component } from 'react';
+import {NavLink} from 'react-router-dom';
 class Header extends Component {
   render() {
     return (
       <div>
         <div class="navbar">
-            <a href="#home">Home</a>
-            <a href="#news">News</a>
-            <a href="#contact">Contact</a>
+            <NavLink to="/">Home</NavLink>
+            <NavLink to="#news">News</NavLink>
+            <NavLink to="/contact">Contact</NavLink>
         </div>
 
         <div class="main">
