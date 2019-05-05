@@ -18,7 +18,7 @@ class Footer extends Component{
             </NavItem>
           </Nav>
       <div className="text-center small copyright">
-            © Acheiver (Raj+ Uday) 2019
+      © Acheiver (Raj+ Uday + Pankaj) 2019
           </div>
       </footer>
     );
