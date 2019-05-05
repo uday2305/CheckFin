@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  padding-top: 40px;
 }
 
 .App-link {
@@ -18,26 +19,37 @@
 
 .navbar {
   overflow: hidden;
-  background-color: #333;
+  background-color: white;
+  text-align: center;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
+  box-shadow: 2px 2px 2px grey;
  }
+
+ .logo
+ {
+  background-image: url("../src/logo.svg");
+  background-repeat: no-repeat;
+  background-position: right center;
+  width: 50%;
+  padding-top: 30px;
+  }
  
  /* Links inside the navbar */
  .navbar a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
  }
  
  /* Change background on mouse-over */
- .navbar a:hover {
-  background: #ddd;
-  color: black;
+ .navbar a:hover 
+ {
+  color: red;
  }
  
  /* Main content */
